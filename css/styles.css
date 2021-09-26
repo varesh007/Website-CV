@@ -59,6 +59,7 @@ p{
     color: blue;
     padding-right: 30px;
     width: 10%;
+    padding-top: 20px;
 }
 
 
@@ -72,4 +73,360 @@ p{
 .block{
     border: 1px grey;
     border-style: dashed;
+}
+
+.duration{
+    color: rgb(107, 107, 107);
+}
+
+.experience-title{
+    font-size: 1.15em;
+    color: rgb(54, 137, 192);
+}
+
+.experience-company{
+    font-weight: bolder;
+}
+
+.education-title{
+    font-size: 1.15em;
+    color: rgb(192, 75, 54);
+}
+
+.education-location{
+    font-weight: bolder;
+}
+
+.personal-projects-title{
+    color: rgb(192, 75, 54);
+    font-size: 1.15em;
+}
+
+.personal-projects-description{
+    color: rgb(114, 116, 112);
+}
+
+.activities-title{
+    color: rgb(54, 137, 192);
+    font-size: 1.15em;
+}
+
+.programming-skills-names{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.skill-container {
+    margin-left: 10px;
+    background-color: rgb(192, 192, 192);
+    width: 95%;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(1){
+    color: rgb(2, 88, 14);
+}
+
+.programming-skills-names div:nth-child(1) .skill {
+    background-color: rgb(192, 75, 54);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(2){
+    color: rgb(2, 88, 14);
+}
+
+.programming-skills-names div:nth-child(2) .skill {
+    background-color: rgb(2, 88, 14);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(3){
+    color: rgb(192, 75, 54);
+}
+
+.programming-skills-names div:nth-child(3) .skill {
+    background-color: rgb(192, 75, 54);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(4){
+    color: rgb(7, 27, 211);
+}
+
+.programming-skills-names div:nth-child(4) .skill {
+    background-color: rgb(7, 27, 211);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(5){
+    color: rgb(241, 166, 3);
+}
+
+.programming-skills-names div:nth-child(5) .skill {
+    background-color: rgb(241, 166, 3);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(6){
+    color: rgb(28, 186, 235);
+}
+
+.programming-skills-names div:nth-child(6) .skill {
+    background-color: rgb(28, 186, 235);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(7){
+    color: rgb(170, 28, 146);
+}
+
+.programming-skills-names div:nth-child(7) .skill {
+    background-color: rgb(170, 28, 146);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(8){
+    color: rgb(39, 179, 11);
+}
+
+.programming-skills-names div:nth-child(8) .skill {
+    background-color: rgb(39, 179, 11);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(9){
+    color: rgb(209, 0, 199);
+}
+
+.programming-skills-names div:nth-child(9) .skill {
+    background-color:rgb(209, 0, 199);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(10){
+    color: rgb(192, 75, 54);
+}
+
+.programming-skills-names div:nth-child(10) .skill {
+    background-color: rgb(192, 75, 54);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(11){
+    color: rgb(241, 166, 3);
+}
+
+.programming-skills-names div:nth-child(11) .skill {
+    background-color: rgb(241, 166, 3);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.programming-skills-names div:nth-child(12){
+    color: rgb(28, 186, 235);
+}
+
+.programming-skills-names div:nth-child(12) .skill {
+    background-color: rgb(28, 186, 235);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.php{
+    width: 73%;
+}
+
+.javascript{
+    width: 58%;
+}
+
+.html{
+    width: 72%;
+}
+
+.xml{
+    width: 68%;
+}
+
+.csharp{
+    width: 86%;
+}
+
+.python{
+    width: 57%;
+}
+
+.java{
+    width: 88%;
+}
+
+.vb{
+    width: 59%;
+}
+
+.cplus{
+    width: 72%;
+}
+
+.dart{
+    width: 45%;
+}
+
+.nodejs{
+    width: 42%;
+}
+
+.git{
+    width: 52%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .logo :nth-child(1){
+        width: 150px;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+
+    .container{
+        width: 100;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .title{
+        font-size: 1.05em;
+        width: 20%;
+    }
+
+    .summary-details{
+        font-size: 1.01em;
+    }
+
+    .personal-projects-title{
+        font-size: 1.02em;
+    }
+
+    .experience-title{
+        font-size: 1.02em;
+    }
+
+    .education-title{
+        font-size: 1.02em;
+    }
+
+    .activities-title{
+        font-size: 1.02em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .logo :nth-child(1){
+        width: 200px;
+    }
+    .container .header{
+        width: 100%;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        text-align: center;
+    }
+    .name-details{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .logo{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    .container{
+        width: 100;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .title{
+        font-size: 1.05em;
+        width: 30%;
+    }
+
+    .summary-details{
+        font-size: 1.01em;
+    }
+
+    .personal-projects-title{
+        font-size: 1.02em;
+    }
+
+    .experience-title{
+        font-size: 1.02em;
+    }
+
+    .education-title{
+        font-size: 1.02em;
+    }
+
+    .activities-title{
+        font-size: 1.02em;
+    }
+    
+    
 }

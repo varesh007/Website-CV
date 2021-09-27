@@ -1,5 +1,12 @@
+:root{
+    --primary: rgb(254, 254, 204);
+    --secondary: rgb(243, 189, 161);
+    --grey: rgb(104, 121, 128);
+    --blue: rgb(2, 71, 94);
+}
+
 body{
-    background-color: rgb(226, 226, 226);
+    background-color: var(--blue);
     margin: 0;
     padding: 0;
 }
@@ -33,7 +40,7 @@ p{
 .small-title{
     font-size: large;
     font-weight: bold;
-    color: brown;
+    color: var(--grey);
 }
 
 .body{
@@ -47,7 +54,7 @@ p{
     font-size: 1.1em;
     padding-right: 10px;
     text-align: center;
-    color: darkmagenta;
+    color: var(--secondary);
 }
 
 .box-container{
@@ -58,7 +65,7 @@ p{
 
 .title{
     font-size: 1.2em;
-    color: blue;
+    color: var(--grey);
     padding-right: 30px;
     width: 10%;
     padding-top: 20px;
@@ -73,43 +80,45 @@ p{
 
 
 .block{
-    border: 1px grey;
+    border: 1px var(--primary);
     border-style: dashed;
 }
 
 .duration{
-    color: rgb(107, 107, 107);
+    color: var(--grey);
 }
 
 .experience-title{
     font-size: 1.15em;
-    color: rgb(54, 137, 192);
+    color: var(--primary);
 }
 
 .experience-company{
     font-weight: bolder;
+    color: var(--secondary);
 }
 
 .education-title{
     font-size: 1.15em;
-    color: rgb(192, 75, 54);
+    color: var(--primary);
 }
 
 .education-location{
     font-weight: bolder;
+    color: var(--secondary);
 }
 
 .personal-projects-title{
-    color: rgb(192, 75, 54);
+    color: var(--primary);
     font-size: 1.15em;
 }
 
 .personal-projects-description{
-    color: rgb(114, 116, 112);
+    color: var(--secondary);
 }
 
 .activities-title{
-    color: rgb(54, 137, 192);
+    color: var(--secondary);
     font-size: 1.15em;
 }
 
@@ -118,170 +127,27 @@ p{
     width: 100%;
 }
 
+.programming-skills-names div .skill{
+    background-color: var(--secondary);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
 
 
 .skill-container {
     margin-left: 10px;
-    background-color: rgb(192, 192, 192);
+    background-color: var(--grey);
     width: 95%;
     border-radius: 15px;
 }
 
-.programming-skills-names div:nth-child(1){
-    color: rgb(2, 88, 14);
+.programming-skills-names div{
+    color: var(--primary);
 }
 
-.programming-skills-names div:nth-child(1) .skill {
-    background-color: rgb(54, 109, 192);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(2){
-    color: rgb(2, 88, 14);
-}
-
-.programming-skills-names div:nth-child(2) .skill {
-    background-color: rgb(2, 88, 14);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(3){
-    color: rgb(192, 75, 54);
-}
-
-.programming-skills-names div:nth-child(3) .skill {
-    background-color: rgb(192, 75, 54);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(4){
-    color: rgb(7, 27, 211);
-}
-
-.programming-skills-names div:nth-child(4) .skill {
-    background-color: rgb(7, 27, 211);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(5){
-    color: rgb(241, 166, 3);
-}
-
-.programming-skills-names div:nth-child(5) .skill {
-    background-color: rgb(241, 166, 3);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(6){
-    color: rgb(28, 186, 235);
-}
-
-.programming-skills-names div:nth-child(6) .skill {
-    background-color: rgb(28, 186, 235);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(7){
-    color: rgb(170, 28, 146);
-}
-
-.programming-skills-names div:nth-child(7) .skill {
-    background-color: rgb(170, 28, 146);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(8){
-    color: rgb(39, 179, 11);
-}
-
-.programming-skills-names div:nth-child(8) .skill {
-    background-color: rgb(39, 179, 11);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(9){
-    color: rgb(209, 0, 199);
-}
-
-.programming-skills-names div:nth-child(9) .skill {
-    background-color:rgb(209, 0, 199);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(10){
-    color: rgb(192, 75, 54);
-}
-
-.programming-skills-names div:nth-child(10) .skill {
-    background-color: rgb(192, 75, 54);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(11){
-    color: rgb(241, 166, 3);
-}
-
-.programming-skills-names div:nth-child(11) .skill {
-    background-color: rgb(241, 166, 3);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.programming-skills-names div:nth-child(12){
-    color: rgb(28, 186, 235);
-}
-
-.programming-skills-names div:nth-child(12) .skill {
-    background-color: rgb(28, 186, 235);
-    color: black;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
-}
 
 .php{
     width: 73%;
@@ -335,6 +201,7 @@ p{
 footer{
     height: 50px;
     background-color: aqua;
+    display: none;
 }
 
 

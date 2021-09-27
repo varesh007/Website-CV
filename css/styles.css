@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap%27');
 :root{
     --primary: rgb(254, 254, 204);
     --secondary: rgb(243, 189, 161);
@@ -9,6 +10,7 @@ body{
     background-color: var(--blue);
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;;
 }
 
 p{
@@ -399,68 +401,25 @@ footer{
         padding-bottom: 19px;
     }
 
+    .pagebreak {page-break-before: always;}
+
     .programming-skills-names div{
         -webkit-print-color-adjust: exact; 
     }
 
-    /* .programming-skills-names div:nth-child(1) .skill {
-        background-color: rgb(54, 109, 192);
-        -webkit-print-color-adjust: exact; 
-    }
-    
-    .programming-skills-names div:nth-child(2) .skill {
-        background-color: rgb(2, 88, 14);
-        -webkit-print-color-adjust: exact; 
+    .summary-details{
+        margin-left: 30px;
     }
 
-    .programming-skills-names div:nth-child(3) .skill {
-        background-color: rgb(192, 75, 54);
-        -webkit-print-color-adjust: exact; 
-    }
-    
-    .programming-skills-names div:nth-child(4) .skill {
-        background-color: rgb(7, 27, 211);
-        -webkit-print-color-adjust: exact; 
+    .skill-container {
+        margin-left: 40px;
+        background-color: var(--grey);
+        width: 95%;
+        border-radius: 15px;
     }
 
-    .programming-skills-names div:nth-child(5) .skill {
-        background-color: rgb(241, 166, 3);
-        -webkit-print-color-adjust: exact; 
+    .programming-skills-names div{
+        color: var(--blue);
     }
-
-    .programming-skills-names div:nth-child(6) .skill {
-        background-color: rgb(28, 186, 235);
-        -webkit-print-color-adjust: exact; 
-    }
-
-    .programming-skills-names div:nth-child(7) .skill {
-        background-color: rgb(170, 28, 146);
-        -webkit-print-color-adjust: exact; 
-    }
-    
-    .programming-skills-names div:nth-child(8) .skill {
-        background-color: rgb(39, 179, 11);
-        -webkit-print-color-adjust: exact; 
-    }
-
-    .programming-skills-names div:nth-child(9) .skill {
-        background-color:rgb(209, 0, 199);
-        -webkit-print-color-adjust: exact; 
-    }
-    
-    .programming-skills-names div:nth-child(10) .skill {
-        background-color: rgb(192, 75, 54);
-        -webkit-print-color-adjust: exact; 
-    }
-    
-    .programming-skills-names div:nth-child(11) .skill {
-        background-color: rgb(241, 166, 3);
-        -webkit-print-color-adjust: exact; 
-    }
-
-    .programming-skills-names div:nth-child(12) .skill {
-        background-color: rgb(28, 186, 235);
-        -webkit-print-color-adjust: exact; 
-    } */
 
 }

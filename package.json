@@ -1,0 +1,22 @@
+{
+  "name": "package1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varesh007/Website-CV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varesh007/Website-CV/issues"
+  },
+  "homepage": "https://github.com/varesh007/Website-CV#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
